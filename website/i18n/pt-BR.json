@@ -29,11 +29,12 @@
     "links": {
       "Docs": "Como usar",
       "API": "API",
-      "Help": "Ajuda"
+      "Help": "Ajuda",
+      "Acquire": "Adquira"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
+      "Introduction": "Introdução",
+      "Hally": "HallyBR",
       "Second Category": "Second Category"
     }
   },

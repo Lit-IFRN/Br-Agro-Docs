@@ -44,7 +44,7 @@ class HomeSplash extends React.Component {
 
     const PromoSection = (props) => (
       <div className="section promoSection">
-        <div className="promoRow">
+        <div className="promoRow" >
           <div className="pluginRowBlock">{props.children}</div>
         </div>
       </div>
@@ -64,9 +64,9 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href="#try">Como Usar </Button>
+            <Button href={docUrl('doc1.html')}>Documentação API</Button>
+            <Button href={docUrl('doc2.html')}>LIT</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -149,16 +149,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            content: 'Forma fácil de automatizar sua fazenda',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Fácil de usar',
           },
           {
-            content: 'The content of my second feature',
+            content: 'Você contribui com a tecnologia',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Gratuíto',
           },
         ]}
       </Block>

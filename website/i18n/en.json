@@ -5,6 +5,10 @@
     "previous": "Previous",
     "tagline": "Laboratório de Inovação Tecnológica",
     "docs": {
+      "coletor-intro": {
+        "title": "Collector Introduction",
+        "sidebar_label": "Introduction"
+      },
       "doc1": {
         "title": "Latin-ish",
         "sidebar_label": "Doc 1 - EN"
@@ -27,14 +31,16 @@
       }
     },
     "links": {
-      "Docs": "How to use",
+      "Docs": "Docs",
       "API": "API",
-      "Help": "Help"
+      "Help": "Help",
+      "Acquire": "Acquire"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Introduction": "Introduction",
+      "Hally": "Hally",
+      "Second Category": "Second Category",
+      "First Category": "First Category"
     }
   },
   "pages-strings": {
