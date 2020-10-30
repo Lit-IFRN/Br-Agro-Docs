@@ -24,6 +24,10 @@
       "doc5": {
         "title": "Fifth Document",
         "sidebar_label": "Doc 5 - BR"
+      },
+      "collector-introduction": {
+        "title": "Introdução",
+        "sidebar_label": "Introdução"
       }
     },
     "links": {
@@ -33,9 +37,8 @@
       "Acquire": "Adquira"
     },
     "categories": {
-      "Introduction": "Introdução",
-      "Hally": "HallyBR",
-      "Second Category": "Second Category"
+      "Getting Started": "Começando",
+      "Guides": "Guias"
     }
   },
   "pages-strings": {

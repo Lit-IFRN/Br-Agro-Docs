@@ -5,7 +5,7 @@
     "previous": "Previous",
     "tagline": "Laboratório de Inovação Tecnológica",
     "docs": {
-      "coletor-intro": {
+      "collector-intro": {
         "title": "Collector Introduction",
         "sidebar_label": "Introduction"
       },
@@ -37,10 +37,8 @@
       "Acquire": "Acquire"
     },
     "categories": {
-      "Introduction": "Introduction",
-      "Hally": "Hally",
-      "Second Category": "Second Category",
-      "First Category": "First Category"
+      "Getting Started": "Getting Started",
+      "Guides": "Guides"
     }
   },
   "pages-strings": {
