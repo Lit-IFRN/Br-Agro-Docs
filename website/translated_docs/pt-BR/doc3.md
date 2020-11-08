@@ -1,17 +1,130 @@
 ---
 id: doc3
-title: This is document number 3
-sidebar_label: Doc 3 - PT-BR
+title: Peripheral
+sidebar_label: Peripheral
 ---
 
-Versão português brasileiro.
+Nessa área iremos explicar os atributos de Peripheral.
+Nessa área iremos explicar os atributos de Peripheral.
+Nessa área iremos explicar os atributos de Peripheral.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+## Index
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+Listar todos os objetos Peripheral.
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+```http
+GET https://www.lit.com/api/peripherals
+```
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+#### Examplo de Response
+```JSON
+[
+  {
+    "_id": "5f022b4d3fa7fa3eea9a16fc",
+    "id": 1,
+    "activity": 1
+  }
+]
+```
+---
+
+## Show
+
+Listar apenas um objeto Peripheral.
+
+```http
+GET https://www.lit.com/api/peripherals/id:int
+```
+
+#### Examplo de Response
+```JSON
+{
+  "_id": "5f022b4d3fa7fa3eea9a16fc",
+  "id": 1,
+  "activity": 10
+}
+```
+---
+
+## Store
+
+Criar um objeto Peripheral.
+
+```http
+POST https://www.lit.com/api/peripherals
+
+Body:
+{
+  "id": 1,
+  "activity": 1
+}
+```
+
+#### Examplo de Response
+```JSON
+{
+  "_id": "5f022b4d3fa7fa3eea9a16fc",
+  "id": 1,
+  "activity": 1
+}
+```
+
+
+---
+
+## Update
+
+Atualizar um objeto Peripheral.
+
+```http
+PUT https://www.lit.com/api/peripherals/id:int
+
+Body:
+{
+  "activity": 2
+}
+```
+
+#### Examplo de Response
+```JSON
+{
+  "_id": "5f022b4d3fa7fa3eea9a16fc",
+  "id": 1,
+  "activity": 2
+}
+```
+
+---
+
+## Delete
+
+Deletar um objeto Peripheral.
+
+```http
+DEL https://www.lit.com/api/peripherals/id:int
+```
+
+#### Examplo de Response
+```JSON
+{
+  "id": 1,
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is a link to [another document.](doc3.md)  
+This is a link to an [external page.](http://www.example.com)
+
