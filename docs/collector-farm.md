@@ -1,7 +1,7 @@
 ---
-id: doc2
-title: document number 2
-sidebar_label: Doc 2 - EN
+id: collector-farm
+title: Collector Farm
+sidebar_label: Farm
 ---
 
 This is a link to [another document.](doc3.md)  

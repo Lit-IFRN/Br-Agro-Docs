@@ -5,6 +5,10 @@
     "previous": "Previous",
     "tagline": "Laboratório de Inovação Tecnológica",
     "docs": {
+      "collector-farm": {
+        "title": "Collector Farm",
+        "sidebar_label": "Farm"
+      },
       "collector-intro": {
         "title": "Collector Introduction",
         "sidebar_label": "Introduction"
@@ -12,10 +16,6 @@
       "doc1": {
         "title": "Latin-ish",
         "sidebar_label": "Doc 1 - EN"
-      },
-      "doc2": {
-        "title": "document number 2",
-        "sidebar_label": "Doc 2 - EN"
       },
       "doc3": {
         "title": "This is document number 3",

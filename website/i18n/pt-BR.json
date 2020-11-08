@@ -5,13 +5,9 @@
     "previous": "Previous",
     "tagline": "Laboratório de Inovação Tecnológica",
     "docs": {
-      "doc1": {
-        "title": "Doc 1 - BR",
-        "sidebar_label": "Doc 1 - BR"
-      },
-      "doc2": {
-        "title": "document number 2",
-        "sidebar_label": "Doc 2 - BR"
+      "collector-farm": {
+        "title": "Farm",
+        "sidebar_label": "Farm"
       },
       "doc3": {
         "title": "Peripheral",
@@ -25,7 +21,7 @@
         "title": "Fifth Document",
         "sidebar_label": "Doc 5 - BR"
       },
-      "collector-introduction": {
+      "collector-intro": {
         "title": "Introdução",
         "sidebar_label": "Introdução"
       }
