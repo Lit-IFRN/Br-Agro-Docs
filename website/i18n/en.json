@@ -24,10 +24,6 @@
       "collector-sensor": {
         "title": "Sensor",
         "sidebar_label": "Sensor"
-      },
-      "doc3": {
-        "title": "This is document number 3",
-        "sidebar_label": "Doc 3 - EN"
       }
     },
     "links": {
