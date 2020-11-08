@@ -1,6 +1,6 @@
 {
   "collector": {
-    "Getting Started": ["collector-intro", "doc1"],
+    "Getting Started": ["collector-intro"],
     "Guides": ["doc2", "doc3"]
   },
   "api": {
