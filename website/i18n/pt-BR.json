@@ -5,25 +5,25 @@
     "previous": "Previous",
     "tagline": "Laboratório de Inovação Tecnológica",
     "docs": {
+      "collector-intro": {
+        "title": "Introdução",
+        "sidebar_label": "Introdução"
+      },
       "collector-farm": {
         "title": "Farm",
         "sidebar_label": "Farm"
       },
-      "doc3": {
+      "collector-peripheral": {
         "title": "Peripheral",
         "sidebar_label": "Peripheral"
       },
-      "doc4": {
-        "title": "Other Document",
-        "sidebar_label": "Doc 4 - BR"
+      "collector-sensor": {
+        "title": "Sensor",
+        "sidebar_label": "Sensor"
       },
-      "doc5": {
-        "title": "Fifth Document",
-        "sidebar_label": "Doc 5 - BR"
-      },
-      "collector-intro": {
-        "title": "Introdução",
-        "sidebar_label": "Introdução"
+      "collector-measurement": {
+        "title": "Measurement",
+        "sidebar_label": "Measurement"
       }
     },
     "links": {

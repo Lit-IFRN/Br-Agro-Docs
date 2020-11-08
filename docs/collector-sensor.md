@@ -1,7 +1,7 @@
 ---
-id: doc4
-title: Other Document
-sidebar_label: Doc 4 - PT-BR
+id: collector-sensor
+title: Sensor
+sidebar_label: Sensor
 ---
 
 Versão português brasileiro.

@@ -1,7 +1,7 @@
 {
   "collector": {
     "Getting Started": ["collector-intro"],
-    "Guides": ["collector-farm", "doc3"]
+    "Guides": ["collector-farm", "collector-peripheral", "collector-sensor", "collector-measurement"]
   },
   "api": {
     "Getting Started": ["doc4"],

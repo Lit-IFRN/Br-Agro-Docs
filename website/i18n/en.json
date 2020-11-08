@@ -13,26 +13,25 @@
         "title": "Collector Introduction",
         "sidebar_label": "Introduction"
       },
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Doc 1 - EN"
+      "collector-measurement": {
+        "title": "Measurement",
+        "sidebar_label": "Measurement"
+      },
+      "collector-peripheral": {
+        "title": "Peripheral",
+        "sidebar_label": "Peripheral"
+      },
+      "collector-sensor": {
+        "title": "Sensor",
+        "sidebar_label": "Sensor"
       },
       "doc3": {
         "title": "This is document number 3",
         "sidebar_label": "Doc 3 - EN"
-      },
-      "doc4": {
-        "title": "Other Document",
-        "sidebar_label": "Doc 4 - EN"
-      },
-      "doc5": {
-        "title": "Fifth Document",
-        "sidebar_label": "Doc 5 - EN"
       }
     },
     "links": {
       "Docs": "Docs",
-      "API": "API",
       "Help": "Help",
       "Acquire": "Acquire"
     },
