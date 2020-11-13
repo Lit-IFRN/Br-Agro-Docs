@@ -4,16 +4,21 @@ title: Peripheral
 sidebar_label: Peripheral
 ---
 
-Nessa área iremos explicar os atributos de Peripheral.
-Nessa área iremos explicar os atributos de Peripheral.
-Nessa área iremos explicar os atributos de Peripheral.
+O Peripheral é um componente que pertence a uma Farm, e contém vários Sensors.
+
+
+Campo        | Tipo          | Descrição
+------------ | ------------- | -------------
+_id          | String        | Representa o ID no sistema
+id           | Integer       | Representa o ID no SmartFarm ©
+activity     | Integer       | Representa o valor de atividade
 
 
 ## Index
 
 Listar todos os objetos Peripheral.
 
-```http
+```JSON
 GET https://www.lit.com/api/peripherals
 ```
 
@@ -33,7 +38,7 @@ GET https://www.lit.com/api/peripherals
 
 Listar apenas um objeto Peripheral.
 
-```http
+```JSON
 GET https://www.lit.com/api/peripherals/id:int
 ```
 
@@ -51,7 +56,7 @@ GET https://www.lit.com/api/peripherals/id:int
 
 Criar um objeto Peripheral.
 
-```http
+```JSON
 POST https://www.lit.com/api/peripherals
 
 Body:
@@ -77,7 +82,7 @@ Body:
 
 Atualizar um objeto Peripheral.
 
-```http
+```JSON
 PUT https://www.lit.com/api/peripherals/id:int
 
 Body:
@@ -101,7 +106,7 @@ Body:
 
 Deletar um objeto Peripheral.
 
-```http
+```JSON
 DEL https://www.lit.com/api/peripherals/id:int
 ```
 
@@ -111,3 +116,6 @@ DEL https://www.lit.com/api/peripherals/id:int
   "id": 1,
 }
 ```
+
+
+
