@@ -1,7 +1,8 @@
 {
   "collector": {
     "Getting Started": ["collector-intro"],
-    "Guides": ["collector-farm", "collector-peripheral", "collector-sensor", "collector-measurement"]
+    "Guides": ["collector-farm", "collector-peripheral", "collector-sensor", "collector-measurement"],
+    "Examples": ["collector-code-javascript", "collector-code-python"]
   },
   "api": {
     "Getting Started": ["doc4"],

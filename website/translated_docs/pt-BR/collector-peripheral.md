@@ -14,6 +14,8 @@ id           | Integer       | Representa o ID no SmartFarm ©
 activity     | Integer       | Representa o valor de atividade
 
 
+
+
 ## Index
 
 Listar todos os objetos Peripheral.

@@ -5,6 +5,14 @@
     "previous": "Previous",
     "tagline": "Laboratório de Inovação Tecnológica",
     "docs": {
+      "collector-code-javascript": {
+        "title": "JavaScript",
+        "sidebar_label": "JavaScript"
+      },
+      "collector-code-python": {
+        "title": "Python",
+        "sidebar_label": "Python"
+      },
       "collector-farm": {
         "title": "Collector Farm",
         "sidebar_label": "Farm"
@@ -33,7 +41,8 @@
     },
     "categories": {
       "Getting Started": "Getting Started",
-      "Guides": "Guides"
+      "Guides": "Guides",
+      "Examples": "Examples"
     }
   },
   "pages-strings": {
