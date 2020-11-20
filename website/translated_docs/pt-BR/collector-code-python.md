@@ -85,6 +85,8 @@ print(data)
 
 ## Update
 
+>Note que o parâmetro da rota deve ser o id de um Peripheral existente, para ver os Peripheral existentes basta olhar a seção Index.
+
 Atualizar um objeto Peripheral.
 
 ```python
@@ -108,7 +110,11 @@ data = json.loads(response.text)
 print(data)
 ```
 
+----
+
 ## Delete
+
+>Note que o parâmetro da rota deve ser o id de um Peripheral existente, para ver os Peripheral existentes basta olhar a seção Index.
 
 Deletar um objeto Peripheral.
 

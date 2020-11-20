@@ -64,11 +64,11 @@ POST https://www.lit.com/api/measurements
 
 Body:
 {
-	"peripheralId": 1,
-	"sensorId": 3,
-	"id": 2,
-	"value": 12,
-	"date": "12/12/2020"
+  "peripheralId": 1,
+  "sensorId": 3,
+  "id": 2,
+  "value": 12,
+  "date": "12/12/2020"
 }
 ```
 
@@ -94,7 +94,9 @@ PUT https://www.lit.com/api/measurements/id:int
 
 Body:
 {
-	"value": 1
+  "id": 2,
+  "value": 1,
+  "date": "12/12/2020"
 }
 ```
 

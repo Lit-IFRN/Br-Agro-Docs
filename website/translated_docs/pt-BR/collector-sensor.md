@@ -58,9 +58,9 @@ POST https://www.lit.com/api/sensors
 
 Body:
 {
-	"peripheralId": 1,
-	"id": 3,
-	"sensorType": 1
+  "peripheralId": 1,
+  "id": 3,
+  "sensorType": 1
 }
 ```
 
@@ -82,10 +82,11 @@ Body:
 Atualizar um objeto Farm.
 
 ```JSON
-PUT https://www.lit.com/api/sensors/id:Integer
+PUT https://www.lit.com/api/sensors/id:int
 
 Body:
 {
+  "id": 3,
   "sensorType": 1
 }
 ```
@@ -106,7 +107,7 @@ Body:
 Deletar um objeto Farm.
 
 ```JSON
-DEL https://www.lit.com/api/sensors/id:Integer
+DEL https://www.lit.com/api/sensors/id:int
 ```
 
 #### Examplo de Response

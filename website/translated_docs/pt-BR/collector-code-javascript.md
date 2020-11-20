@@ -81,6 +81,8 @@ fetch("http://localhost:5000/peripherals", requestOptions)
 
 ## Update
 
+>Note que o parâmetro da rota deve ser o id de um Peripheral existente, para ver os Peripheral existentes basta olhar a seção Index.
+
 Atualizar um objeto Peripheral.
 
 ```javascript
@@ -104,6 +106,8 @@ fetch("http://localhost:5000/peripherals/1", requestOptions)
 ```
 
 ## Delete
+
+>Note que o parâmetro da rota deve ser o id de um Peripheral existente, para ver os Peripheral existentes basta olhar a seção Index.
 
 Deletar um objeto Peripheral.
 

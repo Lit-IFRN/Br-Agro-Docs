@@ -59,9 +59,9 @@ POST https://www.lit.com/api/farm
 
 Body:
 {
-	"userId": 2,
-	"latitude": -6.0458346,
-	"longitude": -37.0292978
+  "userId": 2,
+  "latitude": -6.0458346,
+  "longitude": -37.0292978
 }
 ```
 
@@ -88,8 +88,8 @@ PUT https://www.lit.com/api/farm/_id:String
 
 Body:
 {
-	"latitude": -6.0458346,
-	"longitude": -3123.0292978
+  "latitude": -6.0458346,
+  "longitude": -3123.0292978
 }
 ```
 

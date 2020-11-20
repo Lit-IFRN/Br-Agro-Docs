@@ -89,6 +89,7 @@ PUT https://www.lit.com/api/peripherals/id:int
 
 Body:
 {
+  "id": 1,
   "activity": 2
 }
 ```
