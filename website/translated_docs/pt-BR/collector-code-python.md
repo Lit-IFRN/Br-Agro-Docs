@@ -35,7 +35,7 @@ print(data)
 
 Listar apenas um objeto Peripheral.
 
->Note que o parâmetro da rota deve ser o id de um Peripheral existente, para ver os Peripheral existentes basta olhar a seção Index.
+>Note que o parâmetro da rota deve ser o id de um Peripheral existente, para ver os Peripheral existentes basta olhar a [`seção index`](/docs/pt-BR/collector-code-python#index).
 
 ```python
 import requests
@@ -87,7 +87,7 @@ print(data)
 
 Atualizar um objeto Peripheral.
 
->Note que o parâmetro da rota deve ser o id de um Peripheral existente, para ver os Peripheral existentes basta olhar a seção Index.
+>Note que o parâmetro da rota deve ser o id de um Peripheral existente, para ver os Peripheral existentes basta olhar a [`seção index`](/docs/pt-BR/collector-code-python#index).
 
 
 
@@ -118,7 +118,7 @@ print(data)
 
 Deletar um objeto Peripheral.
 
->Note que o parâmetro da rota deve ser o id de um Peripheral existente, para ver os Peripheral existentes basta olhar a seção Index.
+>Note que o parâmetro da rota deve ser o id de um Peripheral existente, para ver os Peripheral existentes basta olhar a [`seção index`](/docs/pt-BR/collector-code-python#index).
 
 
 

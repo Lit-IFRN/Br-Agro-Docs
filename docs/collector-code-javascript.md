@@ -34,7 +34,7 @@ fetch("http://localhost:5000/peripherals", requestOptions)
 
 List only one Peripheral object.
 
->Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the Index section.
+>Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the [`Index section`](/docs/en/collector-code-javascript#index).
 
 ```javascript
 var requestOptions = {
@@ -83,7 +83,7 @@ fetch("http://localhost:5000/peripherals", requestOptions)
 
 Update a Peripheral object.
 
->Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the Index section.
+>Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the [`Index section`](/docs/en/collector-code-javascript#index).
 
 
 
@@ -111,7 +111,7 @@ fetch("http://localhost:5000/peripherals/1", requestOptions)
 
 Delete a Peripheral object.
 
->Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the Index section.
+>Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the [`Index section`](/docs/en/collector-code-javascript#index).
 
 ```javascript
 var requestOptions = {

@@ -36,7 +36,7 @@ print(data)
 
 List only one Peripheral object.
 
->Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the Index section.
+>Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the [`Index section`](/docs/en/collector-code-python#index).
 
 ```python
 import requests
@@ -88,7 +88,7 @@ print(data)
 
 Update a Peripheral object.
 
->Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the Index section.
+>Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the [`Index section`](/docs/en/collector-code-python#index).
 
 
 
@@ -119,7 +119,7 @@ print(data)
 
 Delete a Peripheral object.
 
->Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the Index section.
+>Note that the route parameter must be the id of an existing Peripheral, to see the existing Peripheral just look at the [`Index section`](/docs/en/collector-code-python#index).
 
 
 
