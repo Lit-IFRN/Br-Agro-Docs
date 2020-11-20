@@ -24,7 +24,7 @@ Listar todos os objetos Peripheral.
 GET https://www.lit.com/api/peripherals
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 [
   {
@@ -44,7 +44,7 @@ Listar apenas um objeto Peripheral.
 GET https://www.lit.com/api/peripherals/id:int
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022b4d3fa7fa3eea9a16fc",
@@ -68,7 +68,7 @@ Body:
 }
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022b4d3fa7fa3eea9a16fc",
@@ -94,7 +94,7 @@ Body:
 }
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022b4d3fa7fa3eea9a16fc",
@@ -113,7 +113,7 @@ Deletar um objeto Peripheral.
 DEL https://www.lit.com/api/peripherals/id:int
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "id": 1,

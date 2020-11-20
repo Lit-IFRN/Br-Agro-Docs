@@ -20,7 +20,7 @@ Listar todos os objetos Farm vinculados a sua conta.
 GET https://www.lit.com/api/sensors
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 [
   {
@@ -38,7 +38,7 @@ Listar apenas um objeto Farm.
 GET https://www.lit.com/api/sensors/id:int
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022bfa3fa7fa3eea9a16fd",
@@ -64,7 +64,7 @@ Body:
 }
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022bfa3fa7fa3eea9a16fd",
@@ -91,7 +91,7 @@ Body:
 }
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022bfa3fa7fa3eea9a16fd",
@@ -110,7 +110,7 @@ Deletar um objeto Farm.
 DEL https://www.lit.com/api/sensors/id:int
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "id": "1"

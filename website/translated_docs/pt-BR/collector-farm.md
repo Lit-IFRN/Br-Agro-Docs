@@ -15,13 +15,13 @@ longitude    | Decimal       | Representa a longitude geográfica
 
 ## Index
 
-Listar todos os objetos Farm vinculados a sua conta.
+Listar todos os objetos Farm.
 
 ```JSON
 GET https://www.lit.com/api/farm
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 [
   {
@@ -39,7 +39,7 @@ Listar apenas um objeto Farm.
 GET https://www.lit.com/api/farm/id:int
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022a7d3fa7fa3eea9a16fa",
@@ -65,7 +65,7 @@ Body:
 }
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022a7d3fa7fa3eea9a16fa",
@@ -93,7 +93,7 @@ Body:
 }
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022a7d3fa7fa3eea9a16fa",
@@ -113,7 +113,7 @@ Deletar um objeto Farm.
 DEL https://www.lit.com/api/farm/_id:String
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022532656f4c3bfb815882"

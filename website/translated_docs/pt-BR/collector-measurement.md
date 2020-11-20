@@ -23,7 +23,7 @@ Listar todos os objetos Measurement.
 GET https://www.lit.com/api/measurements
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 [
   {
@@ -44,7 +44,7 @@ Listar apenas um objeto Measurement.
 GET https://www.lit.com/api/measurements/id:int
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022c043fa7fa3eea9a16fe",
@@ -72,7 +72,7 @@ Body:
 }
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022c653fa7fa3eea9a16ff",
@@ -100,7 +100,7 @@ Body:
 }
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "_id": "5f022c653fa7fa3eea9a16ff",
@@ -120,7 +120,7 @@ Deletar um objeto Measurement.
 DEL https://www.lit.com/api/measurements/id:int
 ```
 
-#### Examplo de Response
+#### Exemplo de Response
 ```JSON
 {
   "id": "2"

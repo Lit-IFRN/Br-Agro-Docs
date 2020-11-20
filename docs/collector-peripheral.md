@@ -4,21 +4,27 @@ title: Peripheral
 sidebar_label: Peripheral
 ---
 
-English
-Nessa área iremos explicar os atributos de Peripheral.
-Nessa área iremos explicar os atributos de Peripheral.
-Nessa área iremos explicar os atributos de Peripheral.
+Peripheral is a component that belongs to a Farm, and contains several Sensors.
+
+
+Campo        | Tipo          | Descrição
+------------ | ------------- | -------------
+_id          | String        | Represents the ID in the system
+id           | Integer       | Represents the ID in SmartFarm ©
+activity     | Integer       | Represents activity value
+
+
 
 
 ## Index
 
-Listar todos os objetos Peripheral.
+List all Peripheral objects.
 
 ```JSON
 GET https://www.lit.com/api/peripherals
 ```
 
-#### Examplo de Response
+#### Example of Response
 ```JSON
 [
   {
@@ -32,13 +38,13 @@ GET https://www.lit.com/api/peripherals
 
 ## Show
 
-Listar apenas um objeto Peripheral.
+List only one Peripheral object.
 
 ```JSON
 GET https://www.lit.com/api/peripherals/id:int
 ```
 
-#### Examplo de Response
+#### Example of Response
 ```JSON
 {
   "_id": "5f022b4d3fa7fa3eea9a16fc",
@@ -50,7 +56,7 @@ GET https://www.lit.com/api/peripherals/id:int
 
 ## Store
 
-Criar um objeto Peripheral.
+Create a Peripheral object.
 
 ```JSON
 POST https://www.lit.com/api/peripherals
@@ -62,7 +68,7 @@ Body:
 }
 ```
 
-#### Examplo de Response
+#### Example of Response
 ```JSON
 {
   "_id": "5f022b4d3fa7fa3eea9a16fc",
@@ -76,18 +82,19 @@ Body:
 
 ## Update
 
-Atualizar um objeto Peripheral.
+Update a Peripheral object.
 
 ```JSON
 PUT https://www.lit.com/api/peripherals/id:int
 
 Body:
 {
+  "id": 1,
   "activity": 2
 }
 ```
 
-#### Examplo de Response
+#### Example of Response
 ```JSON
 {
   "_id": "5f022b4d3fa7fa3eea9a16fc",
@@ -100,13 +107,13 @@ Body:
 
 ## Delete
 
-Deletar um objeto Peripheral.
+Delete a Peripheral object.
 
 ```JSON
 DEL https://www.lit.com/api/peripherals/id:int
 ```
 
-#### Examplo de Response
+#### Example of Response
 ```JSON
 {
   "id": 1,
@@ -114,18 +121,4 @@ DEL https://www.lit.com/api/peripherals/id:int
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-This is a link to [another document.](doc3.md)
-This is a link to an [external page.](http://www.example.com)
 
