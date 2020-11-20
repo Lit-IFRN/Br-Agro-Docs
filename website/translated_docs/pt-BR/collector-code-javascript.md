@@ -7,19 +7,19 @@ sidebar_label: JavaScript
 Em todas as requisições é necessário passar o seu token de acesso, isso pode ser feito através de um header`Authorization`
 
 ```javascript
-var headers = new Headers();
-headers.append("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTkyNzQwNjE1fQ.vLjSIt8rWmZs9dGT_waJKWJzjenicLrEZINisZVCRN0");
+const headers = {
+    "Authorization": "Bearer YOUR_TOKEN_HERE"
+}
 ```
 
-## Listar todos os objetos peripheral
-
+## Index
+Listar todos os objetos peripheral
 ```javascript
-var headers = new Headers();
-headers.append("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTkyNzQwNjE1fQ.vLjSIt8rWmZs9dGT_waJKWJzjenicLrEZINisZVCRN0");
-
 var requestOptions = {
   method: 'GET',
-  headers
+  headers: {
+    "Authorization": "Bearer YOUR_TOKEN_HERE"
+  }
 };
 
 fetch("http://localhost:5000/peripherals", requestOptions)
@@ -34,13 +34,14 @@ fetch("http://localhost:5000/peripherals", requestOptions)
 
 Listar apenas um objeto Peripheral.
 
-```javascript
-var headers = new Headers();
-headers.append("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTkyNzQwNjE1fQ.vLjSIt8rWmZs9dGT_waJKWJzjenicLrEZINisZVCRN0");
+>Note que o parâmetro da rota deve ser o id de um Peripheral existente, para ver os Peripheral existentes basta olhar a seção Index.
 
+```javascript
 var requestOptions = {
   method: 'GET',
-  headers
+  headers: {
+    "Authorization": "Bearer YOUR_TOKEN_HERE"
+  }
 };
 
 fetch("http://localhost:5000/peripherals/1", requestOptions)
@@ -56,9 +57,6 @@ fetch("http://localhost:5000/peripherals/1", requestOptions)
 Criar um objeto Peripheral.
 
 ```javascript
-var headers = new Headers();
-headers.append("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTkyNzQwNjE1fQ.vLjSIt8rWmZs9dGT_waJKWJzjenicLrEZINisZVCRN0");
-
 var body = {
 	"id": 1,
 	"activity": 1233
@@ -66,7 +64,10 @@ var body = {
 
 var requestOptions = {
   method: 'POST',
-  headers,
+  headers: {
+    "Authorization": "Bearer YOUR_TOKEN_HERE",
+    'Content-Type': 'application/json'
+  },
   body: JSON.stringify(body)
 };
 
@@ -83,17 +84,16 @@ fetch("http://localhost:5000/peripherals", requestOptions)
 Atualizar um objeto Peripheral.
 
 ```javascript
-
-var headers = new Headers();
-headers.append("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTkyNzQwNjE1fQ.vLjSIt8rWmZs9dGT_waJKWJzjenicLrEZINisZVCRN0");
-
 var body = {
 	activity: 3
 }
 
 var requestOptions = {
   method: 'PUT',
-  headers
+  headers: {
+    "Authorization": "Bearer YOUR_TOKEN_HERE",
+    'Content-Type': 'application/json'
+  },
   body: JSON.stringify(body)
 };
 
@@ -108,13 +108,11 @@ fetch("http://localhost:5000/peripherals/1", requestOptions)
 Deletar um objeto Peripheral.
 
 ```javascript
-
-var headers = new Headers();
-headers.append("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTkyNzQwNjE1fQ.vLjSIt8rWmZs9dGT_waJKWJzjenicLrEZINisZVCRN0");
-
 var requestOptions = {
   method: 'DELETE',
-  headers
+  headers: {
+    "Authorization": "Bearer YOUR_TOKEN_HERE"
+  }
 };
 
 fetch("http://localhost:5000/peripherals/1", requestOptions)
