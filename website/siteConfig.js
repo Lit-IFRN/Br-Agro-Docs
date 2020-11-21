@@ -38,25 +38,21 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'collector-intro', label: 'Docs'},
-    {doc: 'central-intro', label: 'Central'},
-    {page: 'help', label: 'Help'},
-    {page: 'acquire', label:'Acquire'}
-  //  {blog: false, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
+
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
+  // headerIcon: 'img/favicon.ico',
   footerIcon: 'img/favicon.ico',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#97609d',
-    secondaryColor: '#69436d',
+    primaryColor: '#169C05',
+    secondaryColor: '#26D60F',
   },
 
   /* Custom fonts for website */

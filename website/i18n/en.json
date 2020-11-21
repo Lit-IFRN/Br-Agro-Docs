@@ -5,9 +5,13 @@
     "previous": "Previous",
     "tagline": "Laboratório de Inovação Tecnológica",
     "docs": {
-      "central-intro": {
-        "title": "Central Introduction",
-        "sidebar_label": "Introduction"
+      "collector-code-javascript": {
+        "title": "JavaScript",
+        "sidebar_label": "JavaScript"
+      },
+      "collector-code-python": {
+        "title": "Python",
+        "sidebar_label": "Python"
       },
       "collector-farm": {
         "title": "Farm",
@@ -30,15 +34,11 @@
         "sidebar_label": "Sensor"
       }
     },
-    "links": {
-      "Docs": "Docs",
-      "Central": "Central",
-      "Help": "Help",
-      "Acquire": "Acquire"
-    },
+    "links": {},
     "categories": {
       "Getting Started": "Getting Started",
-      "Guides": "Guides"
+      "Guides": "Guides",
+      "Examples": "Examples"
     }
   },
   "pages-strings": {
