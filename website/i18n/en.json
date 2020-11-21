@@ -34,11 +34,7 @@
         "sidebar_label": "Sensor"
       }
     },
-    "links": {
-      "Docs": "Docs",
-      "Help": "Help",
-      "Acquire": "Acquire"
-    },
+    "links": {},
     "categories": {
       "Getting Started": "Getting Started",
       "Guides": "Guides",
