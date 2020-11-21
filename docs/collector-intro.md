@@ -4,7 +4,7 @@ title: Collector Introduction
 sidebar_label: Introduction
 ---
 
-This documentation describes how our API works and how to use it. If you need help, please contact us by email[lit@lit.com](mailto:lit@lit.com).
+This documentation describes how our API works and how to use it. If you need help, please contact us by email [lit@lit.com](mailto:lit@lit.com).
 
 ## Obtaining the access token
 
