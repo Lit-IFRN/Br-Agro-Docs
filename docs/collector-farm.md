@@ -1,6 +1,6 @@
 ---
 id: collector-farm
-title: Collector Farm
+title: Farm
 sidebar_label: Farm
 ---
 

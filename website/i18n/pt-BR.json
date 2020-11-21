@@ -24,13 +24,22 @@
       "collector-measurement": {
         "title": "Measurement",
         "sidebar_label": "Measurement"
+      },
+      "central-intro": {
+        "title":"Introdução",
+        "sidebar_label": "Introdução"
+      },
+      "central-install": {
+        "title": "Como instalar",
+        "sidebar_label": "Como instalar"
       }
     },
     "links": {
       "Docs": "Como usar",
       "API": "API",
       "Help": "Ajuda",
-      "Acquire": "Adquira"
+      "Acquire": "Adquira",
+      "Central": "Central"
     },
     "categories": {
       "Getting Started": "Começando",

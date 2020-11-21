@@ -3,6 +3,10 @@
     "Getting Started": ["collector-intro"],
     "Guides": ["collector-farm", "collector-peripheral", "collector-sensor", "collector-measurement"]
   },
+  "central": {
+    "Getting Started": ["central-intro", "central-install"],
+    "Guides": []
+  },
   "api": {
     "Getting Started": ["doc4"],
     "Guides": ["doc5"]

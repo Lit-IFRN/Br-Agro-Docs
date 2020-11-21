@@ -5,8 +5,12 @@
     "previous": "Previous",
     "tagline": "Laboratório de Inovação Tecnológica",
     "docs": {
+      "central-intro": {
+        "title": "Central Introduction",
+        "sidebar_label": "Introduction"
+      },
       "collector-farm": {
-        "title": "Collector Farm",
+        "title": "Farm",
         "sidebar_label": "Farm"
       },
       "collector-intro": {
@@ -28,6 +32,7 @@
     },
     "links": {
       "Docs": "Docs",
+      "Central": "Central",
       "Help": "Help",
       "Acquire": "Acquire"
     },
