@@ -5,8 +5,8 @@
     "Examples": ["collector-code-javascript", "collector-code-python"]
   },
   "central": {
-    "Getting Started": ["central-intro", "central-install"],
-    "Guides": []
+    "Getting Started": ["central-intro"],
+    "Guides": ["central-communication"]
   },
   "api": {
     "Getting Started": ["doc4"],
