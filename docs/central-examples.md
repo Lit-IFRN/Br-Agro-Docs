@@ -4,7 +4,4 @@ title: Central Examples
 sidebar_label: Central
 ---
 
-
-# Breno
-
-breno
+Apenas para renderizar

@@ -9,6 +9,13 @@ sidebar_label: Central Communication
 ### CentralCommunication()
 #### Construtor
 
+```c
+
+CentralCommunication central = new CentralCommunication(0x00,0x01,0xBB);
+
+```
+
+
 Argumento        | Tipo          | Descrição
 ---------------- | ------------- | -------------
 ADDH             | Byte          | Representa o addh da LORA da central
