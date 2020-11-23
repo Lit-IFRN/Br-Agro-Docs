@@ -32,6 +32,10 @@
       "central-install": {
         "title": "Como instalar",
         "sidebar_label": "Como instalar"
+      },
+      "central-examples": {
+        "title": "Exemplos",
+        "sidebar_label": "Exemplos"
       }
     },
     "links": {

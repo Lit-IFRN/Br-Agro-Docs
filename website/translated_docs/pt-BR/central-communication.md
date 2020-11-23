@@ -22,6 +22,9 @@ Salva o endereço Lora da central para futuras comunicações.
 ----------------------
 
 ### configurePeripheral()
+```c
+configurePeripheral(id, model);
+```
 
 Argumento        | Tipo          | Descrição
 ---------------- | ------------- | -------------
@@ -33,6 +36,9 @@ Salva informações do periférico para futuras comunicações.
 ----------------------
 
 ### startLora()
+```c
+startLora(m0,m1,rx,tx,aux);
+```
 
 Argumento        | Tipo          | Descrição
 ---------------- | ------------- | -------------
@@ -47,20 +53,29 @@ Salva as informações da LORA para que a comunicação seja possibilitada
 ----------------------
 
 ### registerPeripheral()
+```c
+registerPeripheral();
+```
 
 Envia uma mensagem para a central para registrar o periférico na base de dados caso não esteja registrado.
 
 ----------------------
 
-### hasMessage();
+### hasMessage()
+```c
+hasMessage();
+```
 
 Verifica se há alguma mensagem da central para determinado periférico.
 
-Nota: Essa função deve ser sempre chamada dentro do loop, tendo em vista que ela é responsabilizada por toda a comunicação LORA.
+**Nota: Essa função deve ser sempre chamada dentro do loop, tendo em vista que ela é responsabilizada por toda a comunicação LORA.**
 
 ----------------------
 
 ### readMessage()
+```
+readMessage();
+```
 
 Lê a mensagem que a central enviou, retornando um ActionMessage.
 
@@ -69,6 +84,9 @@ Retorno: ActionMessage
 ----------------------
 
 ### sendActionMessage()
+```
+sendActionMessage(action,component_identifier);
+```
 
 Argumento                 | Tipo          | Descrição
 ------------------------- | ------------- | -------------
@@ -79,7 +97,10 @@ Envia uma ação que foi realizada por um componente para a central.
 
 ----------------------
 
-### sendMeasurementMessage(valor, identificador_sensor)
+### sendMeasurementMessage()
+```c
+sendActionMessage(value, sensor_identifier);
+```
 
 Argumento                 | Tipo          | Descrição
 ------------------------- | ------------- | -------------

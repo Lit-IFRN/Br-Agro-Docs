@@ -9,6 +9,10 @@
         "title": "Central Communication",
         "sidebar_label": "Central Communication"
       },
+      "central-examples": {
+        "title": "Central Examples",
+        "sidebar_label": "Central"
+      },
       "central-intro": {
         "title": "Central Introduction",
         "sidebar_label": "Introduction"

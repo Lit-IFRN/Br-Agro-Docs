@@ -6,7 +6,8 @@
   },
   "central": {
     "Getting Started": ["central-intro"],
-    "Guides": ["central-communication"]
+    "Guides": ["central-communication"],
+    "Examples": ["central-examples"]
   },
   "api": {
     "Getting Started": ["doc4"],
