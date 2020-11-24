@@ -1,8 +1,9 @@
 const React = require('react');
 
 const Index = () => {
-
-  window.location.href="docs/en/collector-intro.html";
+  if(typeof(window) !== "undefined"){
+    window.location.href="docs/en/collector-intro.html";
+  }
 
   return(
     <div>
