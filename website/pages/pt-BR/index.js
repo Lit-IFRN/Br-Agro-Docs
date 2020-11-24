@@ -12,4 +12,4 @@ const Index = () => {
   )
 }
 
-export default Index;
+module.exports = Index;
